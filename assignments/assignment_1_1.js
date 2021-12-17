@@ -1,4 +1,7 @@
-function add(a,b){
-    return a+b;
+function add(a){
+    return a();
 }
-console.log(add(2,3)); //Function as a parameter to another Function
+function test(){
+    return 10;
+}
+console.log(add(test)); //Function as a parameter to another Function
