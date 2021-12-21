@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-color: #f3f3f3;
+}
+h3{
+    font-family: 'Catamaran';
+    width: vw;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+header .header-name{
+    font-family: 'Catamaran';
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #111;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+.line{
+    width: vw;
+    background-color: burlywood;
+    height: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-div{
+    display: flex;
+    width: vw;
+    height: vh;
+}
+
+.wrapper1{
+    flex: 1;
+    border-right: 1.5px solid burlywood;
+    height: vh;
+    padding: 10px;
+}
+
+.wrapper2{
+    flex: 4;
+    padding: 20px;
+}
+
+.card{
+    height: 100px;
+    width: 200px;
+    margin: 0px 10px 20px 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgba(151, 140, 140, 0.671) ;
+}
+.table-name{
+    font-family: 'Catamaran';
+    text-align: center;
+    color: rgba(100, 88, 88, 0.671);
+}
+.card p{
+    font-family: 'Catamaran';
+    text-align: center;
+    margin: auto auto;
+    margin-top: 20px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px rgba(151, 140, 140, 0.671) ;
+}
+#searchtable{
+    width: 200px;
+    margin: 20px auto;
+}
+#searchmenu{
+    display: block;
+    width: 600px;
+    margin: 20px auto;
+}
+
+.menucard{
+    height: 120px;
+    width: 800px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgba(151, 140, 140, 0.671) ;
+}
+.menucard-name{
+    font-family: 'Catamaran';
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 20px;
+    color: #1f1919d3;
+}
+.menucard-price{
+    font-family: 'Catamaran';
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 20px;
+    color: #1f1919d3;
+}
+.container{
+
+    width: 610px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.table-box{
+    width: 600px;
+    height: fit-content;
+}
+.table-box header{
+    background-color: wheat;
+    width: 100%;
+    color: #474040;
+    height: 100px;
+    line-height: 100px;
+    font-family: 'Catamaran';
+    font-size: 28px;
+    padding: 5px;
+}
+.table-box p:nth-child(1){
+    float: left;
+}
+.table-box div{
+    font-family: 'Catamaran';
+    font-size: 25px;
+    float: right;
+    margin-right: 20px;
+    border: 1px solid #050404;
+    height: 25px;
+    width: 18px;
+    background-color: rgb(231, 219, 219);
+    padding: 5px;
+    line-height: 25px;
+}
+#bill-genrate{
+    color: #474040;
+    text-transform: uppercase;
+    height: 100px;
+    line-height: 100px;
+    margin-right: 20px;
+    float: right;
+}
+table tr td{
+    padding: 20px;
+}
