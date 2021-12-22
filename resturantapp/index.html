@@ -22,15 +22,15 @@
                 <div>
                     <div class="card">
                             <h3 class="table-name">Table - 1</h3>
-                           <p> Rs <span id="rupee">0.00</span> | Total items : <span id="item">0</span></p>
+                           <p> Rs <span class="rupee">0.00</span> | Total items : <span class="item">0</span></p>
                     </div>
-                    <div class="card">
+                    <div class="card" >
                         <h3 class="table-name">Table - 2</h3>
-                      <p>  Rs <span id="rupee">0.00</span> | Total items : <span id="item">0</span> </p>
+                      <p>  Rs <span class="rupee">0.00</span> | Total items : <span class="item">0</span> </p>
                     </div>
                     <div class="card">
                         <h3 class="table-name">Table - 3</h3>
-                       <p> Rs <span id="rupee">0.00</span>  | Total items : <span id="item">0</span> </p>
+                       <p> Rs <span class="rupee">0.00</span>  | Total items : <span class="item">0</span> </p>
           
                     </div>
                 </div>
@@ -40,7 +40,9 @@
             <h3>Menu</h3>
             <input type="text" id='searchmenu' placeholder="Search menu... by course,by food">
 
-            <div class="menu-items"></div>
+            <div class="menu-items">
+              
+            </div>
         </div>
     </div>
 
@@ -51,6 +53,31 @@
     </footer>
 
 
+    <div class="overlay hidden">
+            <div class="container" >
+
+                <div class="table-box">
+                    <header>
+                        <p><span id="table-id">Table - 0</span> | Order Details</p> <p><div id="close">X</div></p>
+                    </header>
+                    <main>
+                            <table>
+                                <tr>
+                                    <td><b>S.No</b></td>
+                                    <td><b>item</b></td>
+                                    <td><b>Price</b></td>
+                                    <td><b></b></td>
+                                    <td><b></b></td>
+                                </tr>
+                            </table>
+                        
+                    </main>
+                    <footer>
+                            <p id="bill-genrate" >close session genrate bill</p>
+                    </footer>
+                </div>
+            </div>
+    </div>
     <script src="app.js"></script>
 
 </body>
